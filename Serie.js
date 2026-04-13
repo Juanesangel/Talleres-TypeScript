@@ -1,11 +1,4 @@
 export class Serie {
-    id;
-    name;
-    channel;
-    seasons;
-    description;
-    link;
-    image;
     constructor(id, name, channel, seasons, description, link, image) {
         this.id = id;
         this.name = name;
@@ -16,3 +9,4 @@ export class Serie {
         this.image = image;
     }
 }
+//# sourceMappingURL=Serie.js.map
